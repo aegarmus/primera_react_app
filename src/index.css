@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+
+:root {
+  --primary-color: #65ca85;
+  --primary-color-400: #44895a;
+
+  --secondary-color: #dd8545;
+
+
+
+  --titles-size: 5rem
+}
+
+
+/* 
+Medidas Absolutas
+px, cm, pt
+
+Medidas Relativas
+em rem % vw vh 
+
+
+Por defecto la raíz tiene un standard de 16px
+
+*/
