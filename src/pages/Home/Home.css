@@ -1,0 +1,31 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.container img {
+    border-radius: 15px;
+
+    box-shadow: 0 0 15px #bbb;
+
+    width: 25rem;
+    height: 25rem;
+
+    transition: 0.3s;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px var(--primary-color-400);
+}
+
+.bg-azul {
+    background-color: blue;
+}
